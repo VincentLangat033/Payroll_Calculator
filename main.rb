@@ -54,7 +54,7 @@ class Payroll
     return (@salary - tax)
   end   
 end 
-vincent = Payroll.new("Vincent", 60000)
+vincent = Payroll.new("Vincent", 65000)
 
 puts " Your Gross Salary is : #{vincent.gross_salary}"
 puts " Your Net Salary is : #{vincent.net_salary}"
